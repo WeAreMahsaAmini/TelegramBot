@@ -1,0 +1,1 @@
+export const BOT_MODULE_OPTIONS = 'BOT_MODULE_OPTIONS';
