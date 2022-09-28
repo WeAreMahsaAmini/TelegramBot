@@ -24,7 +24,5 @@ export class AppService {
     this.botService.bot.launch();
   }
 
-  intializeServices(): void {
-    this.celebrityWallService.setBot(this.botService.bot);
-  }
+  intializeServices(): void {}
 }

@@ -16,6 +16,9 @@ lerna-debug.log*
 
 .env
 
+src/keys/*
+!src/keys/.gitkeep
+
 # Tests
 /coverage
 /.nyc_output
