@@ -1,4 +1,4 @@
 export interface SessionData {
-  lastCelebrityId: string;
+  lastCelebrityId: number;
   messageCount: string;
 }
