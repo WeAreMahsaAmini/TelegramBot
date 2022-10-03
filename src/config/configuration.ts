@@ -1,4 +1,7 @@
 export default () => ({
+  config: {
+    realData: process.env.USE_REAL_DATA,
+  },
   doc: {
     id: process.env.GOOGLE_SHEET_ID || '',
     privateKey:
